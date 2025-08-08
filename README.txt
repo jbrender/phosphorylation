@@ -4,7 +4,8 @@ Using DDG Phosphorylation
 3. Download ddGphosphorylation.py, catboost_model99.cbm, and catboost_model_CONFIG99.json from this site
 3. Edit ddGphosphorylation.py to contain the locations of the downloaded programs and scripts from steps 2 and 3
 Running on a single protein:
-%run ddgPhosphorylation.py single --pdb_file <pdb_file_path) --mutation <amino acid and position i.e. Y68> --chain <one letter chain code, defaults to A>
+%run ddgPhosphorylation.py single --pdb_file <pdb_file_path) --mutation <mutation> --chain <chain code>
+i.e %run ddgPhosphorylation.py single --pdb_file "C:\Users\jbren\Documents\pdb_files\1A32.pdb" --mutation "Y68" --chain "A"
 
 Pre-Machine Learning
 --------------------
