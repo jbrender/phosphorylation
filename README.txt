@@ -1,3 +1,11 @@
+Using DDG Phosphorylation
+1. Download FoldX from the FoldX website
+2. Download and compile DSSP from the DSSP github or use a pre-compiled version
+3. Download ddGphosphorylation.py, catboost_model99.cbm, and catboost_model_CONFIG99.json from this site
+3. Edit ddGphosphorylation.py to contain the locations of the downloaded programs and scripts from steps 2 and 3
+Running on a single protein:
+%run ddgPhosphorylation.py single --pdb_file <pdb_file_path) --mutation <amino acid and position i.e. Y68> --chain <one letter chain code, defaults to A>
+
 Pre-Machine Learning
 --------------------
 
