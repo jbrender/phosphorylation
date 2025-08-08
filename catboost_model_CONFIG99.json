@@ -1,0 +1,27 @@
+{
+    "model_type": "catboost",
+    "base_feature_cols": [
+        "SS",
+        "RelSASA",
+        "AltPosition",
+        "delta_total_energy",
+        "Hydrophobic-long",
+        "Polar-long",
+        "total-long"
+    ],
+    "catboost_categorical_feature_names": [
+        "SS"
+    ],
+    "final_model_params": {
+        "random_state": 42,
+        "verbose": 0,
+        "cat_features": [
+            0
+        ],
+        "iterations": 971,
+        "depth": 4,
+        "learning_rate": 0.2524888251235317,
+        "l2_leaf_reg": 0.49882386129143336,
+        "border_count": 182
+    }
+}
